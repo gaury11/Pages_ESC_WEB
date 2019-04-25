@@ -7,7 +7,7 @@ function buySend(){
 	var SERVER_URL = $("#input_url").val();
 	
 	if(SERVER_URL == "" || SERVER_URL == null){
-		SERVER_URL = "http://localhost:8090/api/bca";
+		SERVER_URL = "http://192.168.0.180:8090/api/bca";
 	}
 	
 	const nameVal = $("#input_name").val();
@@ -55,7 +55,7 @@ function setUserList(){
 	var SERVER_URL = $("#input_url").val();
 	
 	if(SERVER_URL == "" || SERVER_URL == null){
-		SERVER_URL = "http://localhost:8090/api/bca";
+		SERVER_URL = "http://192.168.0.180:8090/api/bca";
 	}
 	
 	$.ajax({
