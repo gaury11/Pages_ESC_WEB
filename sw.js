@@ -12,8 +12,8 @@ self.addEventListener('push', function(event) {
     const options = {
       //body: 'Yay it works.',
       body: body,
-      icon: 'images/icon.png',
-      badge: 'images/badge.png'
+      icon: 'icon.png',
+      badge: 'badge.png'
     };
     //event.waitUntil(self.registration.showNotification(title, options));
     const notificaionPromise = self.registration.showNotification(title, options);
