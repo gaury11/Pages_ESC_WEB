@@ -1,4 +1,4 @@
-var url = 'http://localhost:8090';
+var url = 'http://192.168.0.180:8090';
 
 //Vapid public key.
 var applicationServerPublicKey = 'BBYnIeG7C7vmgF897LraqWvzrHTMGBeXypUEz4INiZ37pzcSYmAcofwIiEpr54SMahxcCrQRNYXaEzJ_-B37Vqk';
