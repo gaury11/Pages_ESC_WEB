@@ -19,8 +19,7 @@ self.addEventListener('push', function(event) {
     const options = {
       body: body,
       icon: 'panda_push_icon.jpeg',
-      image: 'panda_push_icon.jpeg',
-      requireInteraction: true
+      image: 'panda_push_icon.jpeg'
       //badge: 'image/badge.png'
     };
     
