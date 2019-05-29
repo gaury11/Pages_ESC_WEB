@@ -14,10 +14,10 @@ self.addEventListener('push', function(event) {
     
     console.log('[Service Worker] Push Received.', data);
     
-    //const title = data.pushTitle;
-    const title = '웹푸시 테스트';
-    //const body = data.pushMsg;
-    const body = '웹푸시 내용';
+    const title = data.pushTitle;
+    //const title = '웹푸시 테스트';
+    const body = data.pushMsg;
+    //const body = '웹푸시 내용';
     const options = {
       body: body,
       icon: 'panda_push_icon.jpeg',
