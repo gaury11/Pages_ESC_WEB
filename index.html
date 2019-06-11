@@ -16,6 +16,9 @@
 	<script src="webPushMain.js"></script>
 
   	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Web Application Manifest -->
+  	<link rel="manifest" href="manifest.json">
     <title>ESC</title>
 </head>
 <body>
@@ -101,5 +104,27 @@
 		</div>
 	</div>
 </div>
+	
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA3APu184NfnmXulW_iRlElPtGA4ryW038",
+    authDomain: "webpush-test-9071b.firebaseapp.com",
+    databaseURL: "https://webpush-test-9071b.firebaseio.com",
+    projectId: "webpush-test-9071b",
+    storageBucket: "webpush-test-9071b.appspot.com",
+    messagingSenderId: "419521381000",
+    appId: "1:419521381000:web:6032a8ac0204b3ad"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
 </body>
 </html>
