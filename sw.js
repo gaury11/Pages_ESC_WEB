@@ -1,3 +1,13 @@
+importScripts('https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js');
+importScripts('https://www.gstatic.com/firebasejs/5.5.2/firebase-messaging.js');
+
+var config = {
+    messagingSenderId: '419521381000'
+};
+
+firebase.initializeApp(config);
+
+const messaging = firebase.messaging();
 /* 
     self : 서비스 워커 자체를 참조하므로 서비스 워커에 이벤트 리스너를 추가함
     -> 푸시 메시지가 수신되면 이벤트 리스너가 실행되고, 등록 시 showNotification() 호출하여 알림을 생성함
